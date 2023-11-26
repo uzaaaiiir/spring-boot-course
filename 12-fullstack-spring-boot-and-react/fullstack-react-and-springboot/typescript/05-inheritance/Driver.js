@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Shape_1 = require("./Shape");
+const Circle_1 = require("./Circle");
+const Rectangle_1 = require("./Rectangle");
+let shape = new Shape_1.Shape(5, 10);
+console.log(shape.getInfo());
+let circle = new Circle_1.Circle(5, 10, 20);
+console.log(circle.getInfo());
+let rectangle = new Rectangle_1.Rectangle(5, 10, 20, 25);
+console.log(rectangle.getInfo());
