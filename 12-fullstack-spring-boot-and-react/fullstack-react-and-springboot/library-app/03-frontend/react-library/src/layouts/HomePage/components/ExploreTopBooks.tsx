@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
 export const ExploreTopBooks = () => {
     return (
@@ -10,13 +12,13 @@ export const ExploreTopBooks = () => {
                     <p className="col-md-5 fs-4">
                         Where would you like to go next?
                     </p>
-                    <a
-                        href="#"
+                    <Link
+                        to="/search"
                         type="button"
                         className="btn main-color btn-lg text-white"
                     >
                         Explore top books
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
